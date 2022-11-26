@@ -1,173 +1,676 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
+    <script type="text/javascript">
+        if (window.location.href == 'http://show08.com/') {
+            window.location.href = 'http://www.show08.com/';
+        }
+    </script>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>耘</title>
-    <link rel="stylesheet" href="./lib/fullpage/jquery.fullpage.min.css">
-    <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./lib/swiper/css/swiper.min.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="description" content="Baron的web前端个人简历，路漫漫其修远兮。">
+    <meta name="keywords" content="云计算，Baron，个人简历，简历网站，运维工程师简历，前端工程师简历,web前端开发, kubernetes, 云计算">
+    <meta name="author" content="Baron">
+    <meta name="fragment" content="!">
+    <meta name="baidu-site-verification" content="UMMVJZAage" />
+    <meta name="baidu_union_verify" content="db24f0b24d1c080a67b5c526855c875a">
+    <title>程序员简历</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="css/index.css" />
+    <!--[if lte IE 9]>
+		    <script type="text/javascript">
+		        window.location = "https://showcc.github.io/error/"
+		    </script>
+  		<![endif]-->
 </head>
 
 <body>
-    <!-- githup链接 -->
-    <div class="githup githup-container" id="githup-container">
-        <img src="./imges/5.jpg" alt="avatar">
-        <a href="https://github.com/fengyun233">耘Resume</a>
+    <div class="W-head-portrait">
+        <a href="https://mebaron.top" target="_blank">
+            <img src="images/Headportrait2.jpg" alt="baron的博客" />
+            <div class="My-resume"><span>Baron</span><i>'s</i> resume</div>
+            <div class="clear"></div>
+        </a>
     </div>
-    <div id="fullpage">
-        <div class="section section1">
-            <div class="top">
-                <img src="./imges/5.jpg" alt="">
-                <h3>Hello World!</h3>
-            </div>
-            <div class="bottom">
-                <p>我叫王龙</p>
-                <p>一名前端研发工程师</p>
-                <p>ecustfengyun@163.com</p>
-            </div>
+    <div class="nav-yuan">
+        <div class="nav-toggle">
+            <div class="icon"></div>
         </div>
-        <div class="section section2">
-            <h3>关于我</h3>
-            <div class="introduce">
-                <div class="item">
-                    <i class="glyphicon glyphicon-grain"></i>
-                    <p>年龄/26岁</p>
-                </div>
-                <div class="item">
-                    <i class="glyphicon glyphicon-education"></i>
-                    <p>学历/本科</p>
-                </div>
-                <div class="item">
-                    <i class="glyphicon glyphicon-map-marker"></i>
-                    <p>坐标/深圳</p>
-                </div>
-                <div class="item">
-                    <i class="glyphicon glyphicon-stats"></i>
-                    <p>状态/空闲</p>
-                </div>
-            </div>
-            <div class="desc">
-                <p>三年互联网经验,一年半全职前端开发经验</p>
-                <p>熟悉MVC开发,深谙自动化,模块化开发之道</p>
-                <p>高效的自学能力,具备独立分析解决问题能力</p>
-                <p>强烈的自我驱动力,代码强迫症患者</p>
-            </div>
-        </div>
-        <div class="section section3">
-            <h3 class="title">技能栈</h3>
-            <div class="container">
-                <div class="left">
-                    <div id="main" style="width: 400px;height:400px;"></div>
-                </div>
-                <div class="right">
-                    <p>熟练使用Vue.js及各种类库</p>
-                    <p>胜任PC/APP/微信三平台前端研发</p>
-                    <p>擅长组件/插件开发，能脱离库书写JS代码</p>
-                    <p>编码常思其健壮性，扩展性，维护性</p>
-                </div>
-            </div>
-        </div>
-        <div class="section section4">
-            <h3 class="title">经历</h3>
-            <div class="container">
-                <h4 class="name">武汉佰钧成技术有限公司</h4>
-                <p class="time">2017-10--2018-08</p>
-                <p class="work">web开发工程师</p>
-                <ul class="job">
-                    <li>与项目经理与技术团队等进行充分的沟通，开发创建性高，高可用性的web网页制作、移动端的WebApp以及微信场景。</li>
-                    <li>充分理解项目需求：包括产品的目标，可用性标准以及时间要求；参与移动产品和项目制作，配合后台开发人员实现产品前端界面效果与功能。</li>
-                    <li>负责移动产品HTML5、CSS3的编写，解决web端和移动端适配问题等。</li>
-                    <li>实现产品UI和交互方面的开发需求，确保产品具有优质的用户使用体验</li>
-                </ul>
-            </div>
-        </div>
-        <div class="section section5">
-            <h3 class="title">作品集</h3>
-            <div class="display">
-                <div class="works-container" id="works-container">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="left pull-left">
-                                <a href="https://fengyun233.github.io/cool/tianyamingyuedao"><img src="./imges/work1.png" alt=""></a>
-                            </div>
-                            <div class="right pull-right">
-                                <a href="https://fengyun233.github.io/cool/mlite"><img src="./imges/work2.png" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="left pull-left">
-                                <a href="https://fengyun233.github.io/cool/cijizhanchang"><img src="./imges/work3.png" alt=""></a>
-                            </div>
-                            <div class="right pull-right">
-                                <a href="https://fengyun233.github.io/cool/nishuihan"><img src="./imges/work4.png" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="left pull-left">
-                                <a href="https://fengyun233.github.io/cool/furniture"><img src="./imges/work5.png" alt=""></a>
-                            </div>
-                            <div class="right pull-right">
-                                <a href="https://fengyun233.github.io/fengyun"><img src="./imges/work6.png" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="left pull-left">
-                                <a href="https://fengyun233.github.io/Exercises/JiaTingHuanYuan"><img src="./imges/jiatinghuayuan.png" alt=""></a>
-                            </div>
-                            <div class="right pull-right">
-                                <a href="https://fengyun233.github.io/Exercises/XingBaKe"><img src="./imges/xingbake.png" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="left pull-left">
-                                <a href="https://fengyun233.github.io/Exercises/buji"><img src="./imges/buji.png" alt=""></a>
-                            </div>
-                            <div class="right pull-right">
-                                <a href="https://fengyun233.github.io/Exercises/jijian"><img src="./imges/jijian.png" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="left pull-left">
-                                <a href="https://fengyun233.github.io/Exercises/rouduoduo"><img src="./imges/rouduoduo.png" alt=""></a>
-                            </div>
-                            <div class="right pull-right">
-                                <a href="https://fengyun233.github.io/Exercises/zhongzhi"><img src="./imges/zhongzhi.png" alt=""></a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- 如果需要分页器 -->
-                    <div class="swiper-pagination"></div>
-                </div>
-            </div>
-        </div>
-        <div class="section section6">
-            <h3 class="title">联系我</h3>
-            <div class="des">
-                <p class="keywords">
-                    <span>灵感</span>
-                    <span>代码</span>
-                    <span>梦想</span>
-                    <span>未来</span>
-                </p>
-                <p>注重效率，偏爱敏捷开发</p>
-                <p>喜欢尝试，期待新鲜事物</p>
-                <p>前端即兴趣，兴趣即未来</p>
-                <p>行路有良友，便是捷径</p>
-                <p>带上我吧，一起看到更大的世界</p>
-            </div>
+        <div class="talkbubble">
+            导航
         </div>
     </div>
 
-    <script src="./js/jquery-3.3.1.min.js"></script>
-    <script src="./lib/fullpage/jquery.fullpage.min.js"></script>
-    <script src="./lib/bootstrap/js/bootstrap.min.js"></script>
-    <script src="./lib/swiper/js/swiper-3.4.2.jquery.min.js"></script>
-    <script src="./js/echarts.js"></script>
-    <script src="./js/index.js"></script>
+    <div class="navigation">
+        <ul>
+            <li><a href="javascript:;" class="a-active">首页<span class="span-active"></span></a></li>
+            <li><a href="javascript:;">关于我<span></span></a></li>
+            <li><a href="javascript:;">技能掌握<span></span></a></li>
+            <li><a href="javascript:;">我的经历<span></span></a></li>
+            <li><a href="javascript:;">我的作品<span></span></a></li>
+            <li><a href="javascript:;">联系我<span></span></a></li>
+        </ul>
+    </div>
+    <div class="W-logo">
+        <img src="images/wang.png" />
+        <span class="W-rem">闲云</span>
+        <div class="W-logo-jian">
+            <span class="W-boke">· Baron's resume</span>
+            <span class="W-qq">QQ:820872556</span>
+        </div>
+        <span class="W-zhan">野鹤</span>
+        <div class="clear"></div>
+    </div>
+    <div class="nav-zhe"></div>
+
+    <div class="swiper-container swiper-container1">
+        <div class="swiper-wrapper swiper-wrapper1">
+            <div class="swiper-slide swiper-slide1">
+                <div class="w-mask">
+                    <div class="slider" style="display: block;">
+                        <div class="items-group">
+                            <div class="item ">
+                                <div class="block">
+                                    <span class="circleLight"></span>
+                                    <div class="text">
+                                        <h2>Hello, I'm Baron</h2>
+                                        <strong>Life doesn’t get easier, you just get stronger</strong>
+                                        <p class="W-p1">我叫Baron</p>
+                                        <p class="W-p2">某是一名云计算运维工程师，来自四川</p>
+                                        <p class="W-mailbox">ecustfengyun@163.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="wowslider-container">
+                    <div class="ws_images">
+                        <ul>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="images/lun1.jpg " alt="闲云野鹤的前端简历" title="" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="images/lun4.png " alt="闲云野鹤的前端简历" title="" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="images/lun2.jpg " alt="闲云野鹤的前端简历" title="" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="images/lun3.jpg " alt="闲云野鹤的前端简历" title="" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide W-aboutme">
+                <div class="W-sider-zhe"></div>
+                <div class="W-introduce">
+                    <div class="W-introduce-me">
+                        <img src="images/me1.jpg" alt="头像" />
+                    </div>
+                    <p>
+                        <strong>-幸会，我是Baron！</strong><br> 一名云计算运维工程师。打造一款成功的云计算产品离不开持之以恒的照料，能成为你的搭档创造出别具一格的作品，我倍感荣幸。
+                        <br>
+                        <strong>-我能效劳</strong><br> 云计算运营工具开发；公有云资源管理；助力改造产品单体架构，推进产品上云。
+                        <br>
+
+                        <strong>-关于我</strong><br> 坐标深圳。目前就职于深圳某科技公司，码畜，运维攻城狮，主要从事Kubenetes生态相关的云计算服务。技术栈Linux、Dockers、Kubernetes、Go、Web前端
+                        <br> 不浮躁，执行力，学习能力都棒棒哒！
+                    </p>
+                </div>
+            </div>
+            <div class="swiper-slide W-skill">
+                <div class="W-sider-zhe"></div>
+                <div id="content">
+                    <div class="legend">
+                        <h1>Skills:</h1>
+                        <div class="skills">
+                            <ul>
+                                <li class="web">WEB前端</li>
+                                <li class="go">GO</li>
+                                <li class="docker">Docker</li>
+                                <li class="kubernetes">Kubernetes</li>
+                                <li class="tke">腾讯云容器平台</li>
+                                <li class="linux">Linux</li>
+                                <li class="serveless">腾讯弹性容器平台</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="diagram"></div>
+                </div>
+
+                <div class="get">
+                    <div class="arc">
+                        <span class="text">web前端</span>
+                        <input type="hidden" class="percent" value="65" />
+                        <input type="hidden" class="color" value="#97BE0D" />
+                    </div>
+                    <div class="arc">
+                        <span class="text">GO</span>
+                        <input type="hidden" class="percent" value="70" />
+                        <input type="hidden" class="color" value="#d7d8d8" />
+                    </div>
+                    <div class="arc">
+                        <span class="text ">Docker</span>
+                        <input type="hidden " class="percent" value="65" />
+                        <input type="hidden " class="color" value="#d3d671" />
+                    </div>
+                    <div class="arc">
+                        <span class="text">Kubernetes</span>
+                        <input type="hidden" class="percent" value="70" />
+                        <input type="hidden" class="color" value="#BEDBE9" />
+                    </div>
+                    <div class="arc">
+                        <span class="text">腾讯云容器平台</span>
+                        <input type="hidden" class="percent" value="80" />
+                        <input type="hidden" class="color" value="#e4a787" />
+                    </div>
+                    <div class="arc">
+                        <span class="text">Linux</span>
+                        <input type="hidden" class="percent" value="60" />
+                        <input type="hidden" class="color" value="#81ec60" />
+                    </div>
+                    <div class="arc">
+                        <span class="text">腾讯弹性容器平台</span>
+                        <input type="hidden" class="percent" value="75" />
+                        <input type="hidden" class="color" value="#ca4de9" />
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide W-work">
+                <div class="W-sider-zhe"></div>
+                <div class="W-work-nr">
+                    <div class="W-work-left">
+                        <div class="W-jing-nr">
+                            <h5>我的经历</h5>
+                            <div class="W-jing-nr-parent">
+                                <div class="W-time">
+                                    <span>2018</span>
+                                    <i>year</i>
+                                    <div class="W-zhuan"></div>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+
+                        <ul class="W-tim-ul">
+                            <li class="W-li-top W-li-top-diyi">
+                                <em>2018</em>
+                                <i>10月</i>
+                                <b></b>
+                                <div class="clear"></div>
+                                <span></span>
+                            </li>
+                            <li class="W-li-top W-margin-top1">
+                                <em>2019</em>
+                                <i>11月</i>
+                                <b></b>
+                                <div class="clear"></div>
+                                <span></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="W-work-right">
+                        <ul>
+                            <li>
+                                <p class="W-jie1">就职于<strong>广州嘉为科技信息技术有限公司深圳分公司</strong>
+                                </p>
+                                <p class="W-jie2">
+                                    <span>&lt;运维开发工程师&gt;</span> 1、开发蓝鲸容器平台SaaS。
+                                    <br>2、学习kuernetes相关知识，部署蓝鲸容器平台测试环境。
+                                    <br>3、使用Docker容器技术容器化应用（通过Dockerfile制作镜像）。
+                                    <br>4、研究kubernetes源码，学习cni容器网络标准、csi容器存储标准、cri容器运行时标准。
+                                    <br>5、研究使用CRD对kubernetes的API进行拓展以及封装各种中间件的运维逻辑(operator)。
+                                </p>
+                            </li>
+                            <li class="W-time-top">
+                                <p class="W-jie1">就职于<strong>腾云悦智科技（深圳）有限责任公司</strong></p>
+                                <p class="W-jie2">
+                                    <span>&lt;公有云产品运维工程师&gt;</span> 1、学习腾讯公有云TKE及周边各种产品如CBS、负载均衡器、私有网络。
+                                    <br>2、解决客户在使用TKE过程中遇到的部分问题，沟通客户、推动产研完善产品。
+                                    <br>3、参与书籍《TKE操作指南》的编写。
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="swiper-slide W-mywork">
+                <div class="W-sider-zhe"></div>
+                <div class="swiper-container swiper-container2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="W-mywork-left">
+                                <a href="https://mebaron.top" target="_blank">
+                                    <div class="W-work13"><span>我的简历网站(本网站)</span></div>
+                                </a>
+                            </div>
+                            <div class="W-mywork-right">
+                                <a href="https://mebaron.top" target="_blank">
+                                    <div class="W-work14"><span>我的博客</span></div>
+                                </a>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="W-mywork-left">
+                                <a href="http://www.wnclub.cn/" target="_blank">
+                                    <div class="W-work1"><span>唯恩优享荟官网</span></div>
+                                </a>
+                            </div>
+                            <div class="W-mywork-right">
+                                <a href="http://www.szbofu.com/" target="_blank">
+                                    <div class="W-work2"><span>博福生物医药科技官网</span></div>
+                                </a>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="W-mywork-left">
+                                <a href="https://showcc.github.io/gai1/GaiLeShi/index.html" target="_blank">
+                                    <div class="W-work3"><span>盖乐仕1(移动端)</span></div>
+                                </a>
+                            </div>
+                            <div class="W-mywork-right">
+                                <a href="https://showcc.github.io/gai1/GaiLeShi2/index.html" target="_blank">
+                                    <div class="W-work4"><span>盖乐仕2(移动端)</span></div>
+                                </a>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="W-mywork-left">
+                                <a href="https://showcc.github.io/gai1/XingBaKe/index.html" target="_blank">
+                                    <div class="W-work5"><span>微信点餐(移动端)</span></div>
+                                </a>
+                            </div>
+                            <div class="W-mywork-right">
+                                <a href="https://showcc.github.io/gai1/JiaTingHuanYuan/index.html" target="_blank">
+                                    <div class="W-work6"><span>家庭花园(移动端)</span></div>
+                                </a>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="W-mywork-left">
+                                <a href="https://showcc.github.io/gai1/JinQiangYu/index.html" target="_blank">
+                                    <div class="W-work7"><span>金枪鱼(移动端)</span></div>
+                                </a>
+                            </div>
+                            <div class="W-mywork-right">
+                                <a href="https://showcc.github.io/gai1/buji/index.html" target="_blank">
+                                    <div class="W-work8"><span>不急蛋糕</span></div>
+                                </a>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="W-mywork-left">
+                                <a href="https://showcc.github.io/gai1/jijian/index.html" target="_blank">
+                                    <div class="W-work9"><span>全能寄件</span></div>
+                                </a>
+                            </div>
+                            <div class="W-mywork-right">
+                                <a href="https://showcc.github.io/gai1/rouduoduo/index.html" target="_blank">
+                                    <div class="W-work10"><span>肉多多</span></div>
+                                </a>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="W-mywork-left">
+                                <a href="https://showcc.github.io/gai1/zhongzhi/index.html" target="_blank">
+                                    <div class="W-work11"><span>众智官网</span></div>
+                                </a>
+                            </div>
+                            <div class="W-mywork-right">
+                                <a href="https://showcc.github.io/gai1/yimuji/index.html" target="_blank">
+                                    <div class="W-work12"><span>易募集</span></div>
+                                </a>
+                            </div>
+                            <div class="clear"></div>
+
+
+                        </div>
+                    </div>
+                    <div class="swiper-pagination swiper-pagination2"></div>
+                </div>
+            </div>
+            <div class="swiper-slide W-contact-me">
+                <div class="W-sider-zhe"></div>
+                <div class="W-lian">
+                    <div class="W-lian-right"></div>
+                    <div class="clear"></div>
+                    <div class="W-lian-bot"></div>
+                    <div class="W-lian-zhong">
+                        <div class="W-lian-heng">
+                            <p class="W-lian-p1">CONTACT</p>
+                            <p class="W-lian-p2">FOR ME</p>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="W-lian-nr">
+                            <p class="W-lian-p3">
+                                <em class="W-lian-e1">灵感</em>
+                                <em class="W-lian-e2">代码</em>
+                                <em class="W-lian-e3">梦想</em>
+                                <em class="W-lian-e4">未来</em>
+                            </p>
+                            <p class="W-lian-p4">
+                                学习是一个充实愉悦的过程<br /> 喜欢尝试，期待新鲜事物
+                                <br /> 前端即兴趣，兴趣即未来
+                                <br /> 行路有良友，便是捷径
+                                <br /> 期待有机会与您共事！
+                            </p>
+                            <div class="W-lian-bottom">
+                                <a href="https://github.com/mebaron" target="_blank">
+                                    <img src="images/github.png" alt="">
+                                    <span class="W-Github">Github</span>
+                                </a>
+                                <a href="#" title="2019模板网" target="_blank">
+                                    <img src="images/buycar.png" alt="">
+                                    <span class="W-qq w-gongz" style="background-position: 0 25px;color: #000;background-color: #fff;">点击查看更多模板</span>
+                                </a>
+                                <a href="#" target="_blank">
+                                    <img style="width: 22px;height: 22px;" src="images/CN_bilibili B.png" alt="">
+                                    <span class="W-Mail">B站up主了解下 哈哈！</span>
+                                </a>
+                                <a href="javascript:;">
+                                    <img src="images/qq.png" alt="">
+                                    <span class="W-qq"></span>
+                                </a>
+                                <a href="javascript:;">
+                                    <img src="images/wechat.png" alt="">
+                                    <span class="W-weixin"></span>
+                                </a>
+                                <a href="javascript:;" title="关注公众号">
+                                    <img src="images/gongzhonghao.png" alt="">
+                                    <span class="W-qq w-gongzhonghao">欢迎关注公众号</span>
+                                </a>
+                                <a href="#" target="_blank">
+                                    <img src="images/zhihu.png" alt="">
+                                    <span class="W-zhihu">Zhihu</span>
+                                </a>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hhBa" style="color: #fff;font-size: 12px;position: absolute;width: 500px;text-align: center;left:50%; height:15px;bottom: 2%;margin-left: -250px;line-height: 15px">
+                    © Baron | <a href="#" style="color: #fff;" target="_blank" title="">xxxxxxx</a>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination swiper-pagination1"></div>
+        <div class="W-yyue">
+            <span class="demoSpan1"></span>
+            <span class="demoSpan2"></span>
+        </div>
+    </div>
+    <div class="Ws-header">
+        <span>Baron's resume</span>
+    </div>
+    <div class="W-yyue W-s-yyue">
+        <img src="images/nn.jpg" />
+        <span class="demoSpan1"></span>
+        <span class="demoSpan2"></span>
+    </div>
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+        <div class="load_title"></div>
+    </div>
+    <div class="W-page2">
+        <div class="W-yi-bg">
+            <a href="http://mebaron.top" class="Ws-tou" alt="头像">
+                <img src="images/me1.jpg" />
+            </a>
+            <h2>Hello, I'm Baron</h2>
+            <strong>Life doesn’t get easier, you just get stronger</strong>
+            <p class="W-p1">我是Baron</p>
+            <p class="W-p2">一名苦中作乐的程序员，来自四川</p>
+            <p class="W-mailbox">ecustfengyun@163.com</p>
+            <div class="W-lian-bottom">
+                <a href="https://github.com/mebaron" target="_blank">
+                    <img src="images/github.png" alt="">
+                    <span class="W-Github">Github</span>
+                </a>
+                <a href="#" title="2019模板网" target="_blank">
+                    <img src="images/buycar.png" alt="">
+                    <span class="W-qq w-gongz" style="background-position: 0 25px;color: #000;background-color: #fff;">点击查看更多模板</span>
+                </a>
+                <a href="#" target="_blank">
+                    <img style="width: 22px;height: 22px;" src="images/CN_bilibili B.png" alt="">
+                    <span class="W-Mail">B站up主了解下 哈哈！</span>
+                </a>
+                <a href="javascript:;">
+                    <img src="images/qq.png" alt="">
+                    <span class="W-qq"></span>
+                </a>
+                <a href="javascript:;">
+                    <img src="images/wechat.png" alt="">
+                    <span class="W-weixin"></span>
+                </a>
+                <a href="javascript:;" title="关注公众号">
+                    <img src="images/gongzhonghao.png" alt="">
+                    <span class="W-qq w-gongzhonghao">欢迎关注公众号</span>
+                </a>
+                <a href="#" target="_blank">
+                    <img src="images/zhihu.png" alt="">
+                    <span class="W-zhihu">Zhihu</span>
+                </a>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div class="Ws-me">
+            <div class="Ws-me-title">
+                <h3>关于我</h3>
+                <i></i>
+            </div>
+            <p>
+                <strong>-幸会，我是Baron！</strong><br> 一名云计算运维工程师。打造一款成功的云计算产品离不开持之以恒的照料，能成为你的搭档创造出别具一格的作品，我倍感荣幸。
+                <br>
+                <strong>-我能效劳</strong><br> 云计算运营工具开发；公有云资源管理；助力改造产品单体架构，推进产品上云。
+                <br>
+
+                <strong>-关于我</strong><br> 坐标深圳。目前就职于深圳某科技公司，码畜，运维攻城狮，主要从事Kubenetes生态相关的云计算服务。技术栈Linux、Dockers、Kubernetes、Go、Web前端
+                <br> 不浮躁，执行力，学习能力都棒棒哒！
+            </p>
+        </div>
+
+        <div class="Ws-ji">
+            <div class="Ws-me-title">
+                <h3>技能掌握</h3>
+                <i></i>
+            </div>
+            <p>
+                1.了解H5C3，JavaScript，能阅读和理解前端项目源码，能做一些基础的前端开发。
+                <br>2.了解go语言，能阅读和理解go语言项目源码，能做一些基础的go语言的开发。
+                <br>3.熟悉基础的Linux命令。
+                <br>4.熟悉docker容器技术。
+                <br>5.熟悉kubenetes。
+                <br>6.熟悉kubenetes及其生态产品(如serverless服务、边缘集群、存储、日志采集、监控告警、镜像仓库、CICD、helm应用市场等)的公有云形态。
+                <br>7.熟悉kubernetes的拓展operator的开发及常用产品形态。
+                <br>8.熟练解决kubernetes使用问题。
+                <br>9.熟悉腾讯云容器服务TKE，可以协助业务部门做业务改造及平稳上云。
+            </p>
+            <div class="Ws-tu">
+                <div class="Ws-PHOTOSHOP">
+                    <em></em>
+                    <div class="Ws-ph">
+                        <div class="Ws-ph-f" data-percentage="65%">
+                        </div>
+                    </div>
+                </div>
+                <div class="Ws-PHOTOSHOP">
+                    <em></em>
+                    <div class="Ws-ph">
+                        <div class="Ws-ph-f" data-percentage="70%">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="Ws-PHOTOSHOP">
+                    <em></em>
+                    <div class="Ws-ph">
+                        <div class="Ws-ph-f" data-percentage="65%">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="Ws-PHOTOSHOP">
+                    <em></em>
+                    <div class="Ws-ph">
+                        <div class="Ws-ph-f" data-percentage="70%">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="Ws-PHOTOSHOP">
+                    <em></em>
+                    <div class="Ws-ph">
+                        <div class="Ws-ph-f" data-percentage="80%">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="Ws-PHOTOSHOP">
+                    <em></em>
+                    <div class="Ws-ph">
+                        <div class="Ws-ph-f" data-percentage="60%">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="Ws-PHOTOSHOP">
+                    <em></em>
+                    <div class="Ws-ph">
+                        <div class="Ws-ph-f" data-percentage="75%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="Ws-jing">
+            <div class="Ws-me-title">
+                <h3>我的经历</h3>
+                <i></i>
+            </div>
+            <div class="Ws-jing-box">
+                <ul>
+                    <li>
+                        <div class="Ws-time">
+                            <img src="images/WS_jing.jpg" />
+                            <span>2018年/10月初–2019年 /10月末</span>
+                        </div>
+                        <div class="Ws-left-kong"></div>
+                        <div class="Ws-gs">
+                            <strong>广州嘉为科技信息技术有限公司深圳分公司</strong>
+                            <em>运维开发工程师</em>
+                            <p>
+                                1、使用HTML/CSS、python、蓝鲸的SaaS开发框架、magicbox前端组件库开发SaaS。
+                                <br> 2、安装部署kubernetes集群、体验和学习dashboard、ingress、ELK、Prometheus、istio、Grafana、Kibana等开源项目。
+                                <br>3、使用Docker容器技术容器化应用（通过Dockerfile制作镜像）。
+                                <br>4、研究kubernetes源码，学习cni容器网络标准、csi容器存储标准、cri容器运行时标准。
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="Ws-time">
+                            <img src="images/WS_jing.jpg" />
+                            <span>2019年/11月</span>
+                        </div>
+                        <div class="Ws-left-kong"></div>
+                        <div class="Ws-gs">
+                            <strong>腾云悦智科技（深圳）有限责任公司</strong>
+                            <em>公有云产品运维工程师</em>
+                            <p>
+                                1、学习腾讯公有云TKE及周边各种产品如CBS、负载均衡器、私有网络。
+                                <br>2、解决客户在使用TKE过程中遇到的部分问题，沟通客户、推动产研完善产品。
+                                <br>3、参与书籍《TKE操作指南》的编写，在其中负责Kubernetes源码阅读及基于云服务器自建Kubernetes集群等部分。
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="Ws-zuo">
+            <div class="Ws-me-title">
+                <h3>我的作品</h3>
+                <i></i>
+            </div>
+            <div class="swiper-container swiper-container3">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide swiper-slide1">
+                        <a href="#" target="_blank">我的简历网站</a>
+                    </div>
+                    <div class="swiper-slide swiper-slide2">
+                        <a href="https://mebaron.top" target="_blank">我的博客</a>
+                    </div>
+                    <div class="swiper-slide swiper-slide3">
+                        <a href="#" target="_blank">唯恩优享荟官网</a>
+                    </div>
+                    <div class="swiper-slide swiper-slide4">
+                        <a href="#" target="_blank">博福生物医药科技官网</a>
+                    </div>
+                    <div class="swiper-slide swiper-slide5">
+                        <a href="#" target="_blank">盖乐仕1(移动端)</a>
+                    </div>
+                    <div class="swiper-slide swiper-slide6">
+                        <a href="#" target="_blank">盖乐仕2(移动端)</a>
+                    </div>
+                    <div class="swiper-slide swiper-slide7">
+                        <a href="#" target="_blank">微信点餐(移动端)</a>
+                    </div>
+                    <div class="swiper-slide swiper-slide8">
+                        <a href="#" target="_blank">家庭花园(移动端)</a>
+                    </div>
+                    <div class="swiper-slide swiper-slide9">
+                        <a href="#" target="_blank">金枪鱼(移动端)</a>
+                    </div>
+                    <div class="swiper-slide swiper-slide10">
+                        <a href="#" target="_blank">不急蛋糕</a>
+                    </div>
+                </div>
+                <div class="swiper-pagination swiper-pagination3"></div>
+            </div>
+        </div>
+
+        <div class="Ws-lianxi">
+            <div class="Ws-me-title">
+                <h3>联系我</h3>
+                <i>ecustfengyun@163.com</i>
+            </div>
+        </div>
+
+        <div class="Ws-hui">
+            <img src="images/top.png" />
+        </div>
+    </div>
+    <div class="W-pinglun">
+        <div class="Ws-bei" style="line-height: 30px">
+            <br> © Baron | <a href="#" target="_blank" title="">xxxxxxx</a>
+        </div>
+    </div>
+
+    <script src='js/jquery-1.12.0.min.js'></script>
+    <script src="js/index.js"></script>
 </body>
+
+</html>
 
 </html>
